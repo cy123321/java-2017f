@@ -635,8 +635,7 @@ public class TestTreeSetWithComparator {
 
 ## Example
 
-<br/>
-```java
+``` java
 import java.util.*;
 public class HasMapTest {
   public static void main(String[] args) {
@@ -648,7 +647,6 @@ public class HasMapTest {
     theMap.put("Franti, Michael", 98);
     theMap.put("Lennon, John", 88);
     System.out.println(theMap);
-    System.out.println("-------------------------------");
     System.out.println(theMap.get("Korth, Evan"));
     System.out.println(theMap.get("Franti, Michael")); 
   }
@@ -659,8 +657,7 @@ public class HasMapTest {
 
 ## Example
 
-<br/>
-```java
+``` java
 public class CountOccurrenceOfWords { 
     public static void main(String[] args) {
       String text = "Have a good day. Have a good class. " + "Have a good visit. Have
@@ -683,7 +680,6 @@ public class CountOccurrenceOfWords {
       System.out.println(entry.getValue() + "\t" + entry.getKey())
     }
 }
-
 ```
 
 ---
